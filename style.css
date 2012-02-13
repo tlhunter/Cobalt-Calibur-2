@@ -1,0 +1,103 @@
+body {
+	background: white url("images/gui/body.gif") repeat-x center top;
+	margin: 4px 0 0 0; padding: 0;
+	text-align: center;
+}
+#header {
+	height: 60px;
+	background: white url("images/gui/header.gif") no-repeat left top;
+	text-align: right;
+}
+#header h1, #header h2 {
+	display: none;
+}
+#header div {
+	padding: 24px 30px 0 0;
+}
+#container {
+	margin: 0 0 0 8px;
+	width: 760px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+#nav {
+	height: 20px;
+	background: white url("images/gui/tab-back.gif") repeat-x;
+}
+#nav a {
+	margin: 0 2px 0 0;
+	height: 20px;
+	background: transparent url("images/gui/tab-left.gif") no-repeat;
+	display: block;
+	float: left;
+	color: #1B86E1;
+	font-family: verdana, arial;
+	font-size: 10px;
+	text-decoration: none;
+	font-weight: bold;
+}
+#nav a:hover {
+	background-image: url("images/gui/tab-left_hover.gif");
+	color: #1B86E1;
+}
+#nav a span {
+	height: 20px;
+	margin: 0 0 0 10px; // margin: 0 0 0 5px;
+	padding: 4px 10px 0 0;
+	background: transparent url("images/gui/tab-right.gif") no-repeat right top;
+	display: block;
+	float: left;
+}
+#nav a:hover span {
+	background-image: url("images/gui/tab-right_hover.gif");
+}
+#content {
+	background: white url("images/gui/content.gif") no-repeat left top;
+	font-family: verdana;
+	font-size: 10px;
+	min-height: 160px;
+}
+#nav a#selected {
+	background-image: url("images/gui/tab-left_hover.gif");
+	color: black;
+}
+#nav a#selected span {
+	background-image: url("images/gui/tab-right_hover.gif");
+}
+td, div {
+	font-family: verdana;
+	font-size: 10px;
+}
+#map {
+	margin-left: 40px;
+	width: 320px;
+	background-color: #C0B068;
+}
+#map #title {
+	background-color: white;
+	font-weight: bold;
+	height: 16px;
+}
+#map img {
+	width: 16px; height: 16px;
+}
+#movement td img {
+	border: 0;
+}
+
+#users {
+	background-color: black;
+}
+#users .even {
+	background-color: #aaaadd;
+}
+#users .odd {
+	background-color: #aaaabb;
+}
+
+#terraform input {
+	width: 16px; height: 16px;
+	font-family: 04b08, verdana;
+	font-size: 8px;
+}
