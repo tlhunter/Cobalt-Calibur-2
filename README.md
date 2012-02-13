@@ -1,6 +1,9 @@
 Cobalt Calibur 2.x
 ===
 
+![Cobalt Calibur 2.x Screenshot](https://github.com/renownedmedia/Cobalt-Calibur-2/blob/master/screenshot.png?raw=true)
+Obligatory Screenshot
+
 *Disclaimer:* I built this in 2006. It was one of the first things I ever built
 using PHP. It is in no way an example of the programming ability of Thomas
 Hunter.
