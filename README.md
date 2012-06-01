@@ -1,7 +1,7 @@
 Cobalt Calibur 2.x
 ===
 
-![Cobalt Calibur 2.x Screenshot](https://github.com/renownedmedia/Cobalt-Calibur-2/blob/master/screenshot.png?raw=true)
+![Cobalt Calibur 2.x Screenshot](https://github.com/tlhunter/Cobalt-Calibur-2/blob/master/screenshot.png?raw=true)
 
 Obligatory Screenshot
 
